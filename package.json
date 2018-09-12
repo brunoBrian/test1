@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "autoprefixer": "^7.1.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "flickity": "^2.1.2",
+    "flickity-imagesloaded": "^2.0.0",
+    "jquery": "^3.2.1",
+    "jquery-mask-plugin": "^1.14.15",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.5",
+    "sass-loader": "^6.0.5",
+    "selectric": "^1.13.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "dev": "webpack-dev-server --open",
+    "build": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors --env=dist"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1"
+  }
+}
